@@ -1,7 +1,21 @@
-# Awesome Project Build with TypeORM
+## 💢 How To Use
 
-Steps to run this project:
+Para clonar e executar este aplicativo, você precisará do [Git](https://git-scm.com), [Node.js][nodejs] + [Yarn][yarn] instalado no seu computador.
 
-1. Run `npm i` command
-2. Setup database settings inside `ormconfig.json` file
-3. Run `npm start` command
+Na linha de comando:
+
+### Install API 
+
+```bash
+# Install dependencies
+$ yarn install
+
+# Run Migrates
+$ yarn typeorm migration:run
+s
+# Start server
+$ yarn start:dev
+
+# running on port 4000
+$ [+] 🌀 Application is running on port 4000
+```
