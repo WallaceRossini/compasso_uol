@@ -12,7 +12,7 @@ $ yarn install
 
 # Run Migrates
 $ yarn typeorm migration:run
-s
+
 # Start server
 $ yarn start:dev
 
